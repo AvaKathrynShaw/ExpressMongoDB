@@ -4,13 +4,16 @@
   "description": "mock uber api",
   "main": "index.js",
   "scripts": {
-    "test": "run test"
+    "test": "nodemon --exec mocha --recursive -R min"
   },
   "author": "Ava Shaw",
   "license": "ISC",
   "dependencies": {
+    "body-parser": "^1.18.2",
     "express": "^4.16.2",
     "mocha": "^4.0.1",
-    "mongoose": "^5.0.0-rc0"
+    "mongoose": "^5.0.0-rc0",
+    "nodemon": "^1.14.3",
+    "supertest": "^3.0.0"
   }
 }
