@@ -1,0 +1,16 @@
+{
+  "name": "muber",
+  "version": "1.0.0",
+  "description": "mock uber api",
+  "main": "index.js",
+  "scripts": {
+    "test": "run test"
+  },
+  "author": "Ava Shaw",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mocha": "^4.0.1",
+    "mongoose": "^5.0.0-rc0"
+  }
+}
